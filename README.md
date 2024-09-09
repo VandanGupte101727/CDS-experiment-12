@@ -11,3 +11,7 @@ Types of Constructors:<br>
 1).Default Constructor: Takes no arguments or has default parameters. If no constructor is defined, the compiler provides a default constructor.<br>
 2).Parameterized Constructor: Allows passing arguments to initialize the object with specific values.<br>
 3).Copy Constructor: Used to create a new object as a copy of an existing object. If not explicitly defined, the compiler generates a default one that performs a shallow copy.<br>
+
+Destructors: In C++, a destructor is a special member function that is automatically called when an object goes out of scope or is explicitly deleted. Its main purpose is to release resources (like memory or file handles) acquired during the object's lifetime, ensuring proper cleanup. A destructor has the same name as the class, prefixed with a tilde (~), and cannot be overloaded. It plays a crucial role in avoiding resource leaks and is integral to RAII (Resource Acquisition Is Initialization).<br>
+
+
