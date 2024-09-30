@@ -48,7 +48,7 @@ CODE:-
     student s1;
     s1.display();
     return 0;
-    }<br>
+    }
 
 2).<br>
     
