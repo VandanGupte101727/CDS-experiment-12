@@ -241,3 +241,19 @@ CODE:-
     destruct aa,bb,cc,dd;
     }
 
+OUTPUT:-<br>
+1).<br>
+![exp12](https://github.com/VandanGupte101727/CDS-experiment-12/blob/main/Screenshot%202024-09-30%20at%209.25.28%20AM.png)<br>
+2).<br>
+![exp12](https://github.com/VandanGupte101727/CDS-experiment-12/blob/main/Screenshot%202024-09-30%20at%209.38.25%20AM.png)<br>
+3).<br>
+![exp12](https://github.com/VandanGupte101727/CDS-experiment-12/blob/main/Screenshot%202024-09-30%20at%209.44.56%20AM.png)<br>
+4).<br>
+![exp12](https://github.com/VandanGupte101727/CDS-experiment-12/blob/main/Screenshot%202024-09-30%20at%209.52.07%20AM.png)<br>
+5).<br>
+![exp12](https://github.com/VandanGupte101727/CDS-experiment-12/blob/main/Screenshot%202024-09-30%20at%209.56.29%20AM.png)<br>
+6).<br>
+![exp12](https://github.com/VandanGupte101727/CDS-experiment-12/blob/main/Screenshot%202024-09-30%20at%2010.07.18%20AM.png)<br>
+
+
+CONCLUSION:- in this experiment we learnt about the constructors , types of constructors and destructors <br>
