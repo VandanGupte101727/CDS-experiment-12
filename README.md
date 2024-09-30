@@ -164,7 +164,7 @@ CODE:-
     maxop n1(23,76);
     }
 
-4).<br>
+5).<br>
 
     #include<iostream>
     #include<string.h>
