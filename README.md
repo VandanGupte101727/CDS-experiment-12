@@ -15,3 +15,40 @@ Types of Constructors:<br>
 Destructors: In C++, a destructor is a special member function that is automatically called when an object goes out of scope or is explicitly deleted. Its main purpose is to release resources (like memory or file handles) acquired during the object's lifetime, ensuring proper cleanup. A destructor has the same name as the class, prefixed with a tilde (~), and cannot be overloaded. It plays a crucial role in avoiding resource leaks and is integral to RAII (Resource Acquisition Is Initialization).<br>
 
 
+CODE:-
+
+1).
+
+    #include <iostream>
+    using namespace std;
+
+
+    {
+    int rn;
+    char n[50];
+    float avg = 0.0;
+    public:
+    student()
+    {
+    cout<<"Enter the name: ";
+    cin>>n;
+    cout<<"Enter the roll no.: ";
+    cin>>rn;
+    cout<<"Enter the average: ";
+    cin>>avg;
+    }
+    void display()
+    {
+    cout<<endl;
+    cout<<"Name: "<<n<<endl;
+    cout<<"Roll No: "<<rn<<endl;
+    cout<<"Average: "<<avg<<"%"<<endl;
+    }
+    };
+    int main()
+    {
+    student s1;
+    s1.display();
+    }
+
+
