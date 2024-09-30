@@ -17,7 +17,7 @@ Destructors: In C++, a destructor is a special member function that is automatic
 
 CODE:-
 
-1).
+1).<br>
 
     #include <iostream>
     using namespace std;
@@ -48,7 +48,45 @@ CODE:-
     student s1;
     s1.display();
     return 0;
+    }<br>
+
+2).<br>
+    
+    #include <iostream>
+    using namespace std;
+
+    class student
+    {
+    int rn;
+    char n[50];
+    float avg;
+    public:
+    student();
+    void display();
+    };
+    student::student()
+    {
+    cout<<"Enter the name: ";
+    cin>>n;
+    cout<<"Enter the roll no.: ";
+    cin>>rn;
+    cout<<"Enter the average: ";
+    cin>>avg;
     }
+    void student::display()
+    {
+    cout<<endl;
+    cout<<"Name: "<<n<<endl;
+    cout<<"Roll No: "<<rn<<endl;
+    cout<<"Average: "<<avg<<endl;
+    }
+    int main()
+    {
+    student s1;
+    s1.display();
+    return 0;
+    }
+
 
 
 
